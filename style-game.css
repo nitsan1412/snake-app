@@ -1,0 +1,103 @@
+html,
+body {
+  background-color: rgb(30, 39, 46) !important;
+  height: 100%;
+  margin: 0px;
+  width: 100%;
+}
+
+#top_rowrow {
+  text-align: center;
+}
+.container {
+  text-align: center;
+  background-color: rgb(30, 39, 46);
+  /* margin: 0px; */
+}
+
+#game_headline img {
+  height: 50px;
+  /* padding-right: 0px;
+  padding-left: 0px; */
+}
+
+h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  /* margin-right:120px !important; */
+  /* position: relative; */
+  /* margin-right: 77px; */
+}
+
+img {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+
+#score {
+  color: white;
+  margin-top: 10px !important;
+}
+
+#time {
+  color: white;
+  width: 50em;
+  margin-top: 10px !important;
+}
+
+/*------------------ CANVAS-------------- */
+#myCanvas {
+  border: 1px solid black;
+}
+
+#canvas {
+  text-align: center;
+  background-color: rgb(30, 39, 46);
+  margin-right: 0px;
+}
+
+/*------------------ Rewind-------------- */
+.rewind {
+  text-align: end;
+  background-color: rgb(30, 39, 46);
+  margin-right: 8em !important;
+}
+
+.rewind button,
+#backBtn {
+  background-color: rgb(255, 63, 52);
+  color: white;
+  padding: 15px 55px;
+  border-radius: 40px;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 20px auto;
+  margin-right: 5em !important;
+}
+
+#backBtn {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+#restart,
+#backBtn {
+  outline: none;
+  border: none;
+}
+
+#gameOver {
+  font-size: 100px;
+  color: cyan;
+  position: absolute;
+  z-index: 1;
+  top: 37%;
+  left: 27%;
+}
+
+#canvas {
+  position: relative;
+}

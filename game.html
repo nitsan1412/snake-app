@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>game page</title>
+    <link rel="stylesheet" href="style-game.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+
+</head>
+<body>
+    <div class="container justify-content-around" id="game_headline">
+        <div id="top_row" class="row justify-content-center">
+            <div id="score" class="col">
+              <h3 id="showScore">Score: 0</h3>
+            </div>
+            <div id="logo" class="col-1">
+              <img src="/Jakarta_Icon.png"/>
+            </div>
+            <div class="col">
+              <h1>PHYTONS</h1>
+            </div>
+            <div id="time" class="col">
+              <h3>
+                Time: <label id="hours">00</label>:<label id="minutes">00</label>:<label id="seconds">00</label>
+              </h3>
+               </div>
+          </div>
+        <div id="canvas" class="container">
+          <div id="hiddenDivGameOver">
+            <h1 id="gameOver"></h1>
+        </div>
+          <canvas id="myCanvas" width="800" height="600"></canvas>
+          
+        </div>
+        <div id="rewind" class="rewind">
+          <button id= "restart">Restart</button>
+          <a id="backBtn" class="btn btn-primary" href="/index.html" role="button">new player</a>
+        </div>
+        <!-- score board modal -->
+        <div id="scoreBorad" class="modal">
+          <span class="closeScors">&times;</span>
+          <h1 class="scoreHeadline">Score Board</h1>
+          <table>
+          </table>
+        
+        </div>
+       
+        <!-- The Modal -->
+        <!-- <div id="gameOverModal" class="modal"> -->
+            <!-- Modal content -->
+            <!-- <div class="modal-content"> -->
+                <!-- <span class="closeGameOver">&times;</span>
+                
+                <h3 id="showScore">Total Score:</h3>
+                <h3>
+                  Total Time: <label id="hours"></label>:<label id="minutes"></label>:<label id="seconds"></label>
+                </h3>
+            </div> -->
+        <!-- </div> -->
+        
+      </div>
+   
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="modalsscripts.js"></script>
+<script src= script.js></script>
+</body>
+</html>
